@@ -25,6 +25,7 @@ describe("PokemonCatalogComponent", () => {
       given.onNextSpy();
       given.onPrevSpy();
       when.render(new PokemonCatalog());
+      
     });
 
     it("should show picture given pokemon provided as input", () => {
